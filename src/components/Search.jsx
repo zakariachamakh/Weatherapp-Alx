@@ -17,8 +17,7 @@ export default function SearchSection() {
             setLocationArray([...locationArray, location])
             localStorage.setItem('locations', JSON.stringify(locationArray))
         }
-        console.log(locationArray);
-    }, [location])
+    }, [llocation,ocationArray, searchInput, setLocationArray])
 
     function handleSearch(e){
         e.preventDefault()

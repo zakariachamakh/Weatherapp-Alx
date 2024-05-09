@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Weatherapp-Devchallenge/static/css/main.e55fda2f.css",
+    "main.js": "/Weatherapp-Devchallenge/static/js/main.c895dbfc.js",
+    "index.html": "/Weatherapp-Devchallenge/index.html",
+    "main.e55fda2f.css.map": "/Weatherapp-Devchallenge/static/css/main.e55fda2f.css.map",
+    "main.c895dbfc.js.map": "/Weatherapp-Devchallenge/static/js/main.c895dbfc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e55fda2f.css",
+    "static/js/main.c895dbfc.js"
+  ]
+}
