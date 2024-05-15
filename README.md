@@ -2,10 +2,6 @@
 
 <h1 align="center">Weather App</h1>
 
-<div align="center">
-   Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 ## Table of Contents
@@ -13,7 +9,6 @@
 - [Overview](#overview)
   - [Built With](#built-with)
 - [How to use](#how-to-use)
-- [Contact](#contact)
 
 <!-- OVERVIEW -->
 
@@ -50,7 +45,6 @@ Frontend challenge to create a weather app using an API and a Frontend library:
 - [Material Design Icons](https://google.github.io/material-design-icons/)
 - [OpenWeatherMap API](https://openweathermap.org/current)
 
-
 ## How To Use
 
 <!-- Example: -->
@@ -67,9 +61,9 @@ $ npm install
 # Run the app
 $ npm start
 ```
+## Contributing
 
-## Contact
+- Zakaria Chamakh
 
-<!-- - Website [your-website.com](https://{your-web-site-link}) -->
-- GitHub [@heyitsashleyhere](https://github.com/heyitsashleyhere)
-- Twitter [@ashhhleyhere](https://twitter.com/ashhhleyhere)
+## Licensing
+MIT
