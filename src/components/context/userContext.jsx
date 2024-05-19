@@ -47,7 +47,7 @@ function UserContextProvider({children}) {
 
     useEffect(()=>{
         localStorage.setItem('myLocation', defaultLocation.charAt(0).toUpperCase() + defaultLocation.slice(1).toLowerCase());
-        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=69644e28c6a9c6d7c04f95ff1035a799&units=${unit}`)
+        fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=c28d8474dcb3118354c63df41fb39f46&units=${unit}`)
             .then(response => response.json())
             .then(result => {
                 setTemp(Math.round(result.main.temp));
