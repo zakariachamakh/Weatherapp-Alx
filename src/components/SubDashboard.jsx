@@ -20,10 +20,10 @@ export default function SubDashboard() {
 
     useEffect(()=> {
         // 7 day forecast:
-        fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=69644e28c6a9c6d7c04f95ff1035a799&units=${unit}`)
+        fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&appid=c28d8474dcb3118354c63df41fb39f46&units=${unit}`)
             .then(response => response.json())
             .then(result => {
-                setForecasts(result.daily.slice(1, 6))
+                setForecasts(result.daily.slice(1, 4))
             })
     }, [location, unit, lat, lon])
 
