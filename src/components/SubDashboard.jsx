@@ -102,7 +102,7 @@ export default function SubDashboard() {
                     <h4>{airPressure} <span>mb</span></h4>
                 </div>
 
-                <footer>created by <a href="https://github.com/heyitsashleyhere" target="_blank" rel="noreferrer">Ashley Jiang</a> - devChallenges.io</footer>
+                <footer>created by Zakaria Chamakh </footer>
             </div>
 
         </section>
